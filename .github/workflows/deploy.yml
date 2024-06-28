@@ -68,5 +68,5 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
-          bucket: sample-bucket
+          bucket: gha-javascript-bucket
           dist-folder: ./dist #this should be same as line-62
